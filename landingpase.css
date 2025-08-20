@@ -1,0 +1,139 @@
+body {
+    background: linear-gradient(90deg,rgba(155, 153, 163, 1) 14%, rgba(9, 9, 121, 1) 100%, rgba(0, 212, 255, 1) 74%);
+    overflow: auto;
+}
+div {
+    margin-top: 100px;
+}
+.head {
+    color:  white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px rgba(9, 9, 121, 1);
+}
+.web {
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+}
+.medsos {
+    font-size: 20px;
+    margin-top: auto;
+    position: absolute;
+    right: 500px;
+    bottom: -110%;
+    display: inline-flex;
+    gap: 70px;
+    align-items: center;
+    transition: 1s;
+}
+.medsos:hover .satu img {
+    transform: scale(1.2);
+    margin-top: 3px;
+}  
+.medsos:hover .dua img {
+   transform: scale(1.2);
+   margin-top: 3px;
+   display: block;
+}
+.medsos:hover  .tiga img {
+  transform: scale(1.2);
+  margin-top: 3px;
+}
+.gambar {
+    /* background-color: salmon; */
+    position: absolute;
+    overflow: hidden;
+    border-radius: 30px;
+    /* border-style: solid; */
+    right: 50px;
+    top: 0;
+    display: block;
+}
+
+.gambar:hover {
+    border-radius: 50%;
+    transition: 0.5s;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+}
+.about {
+    background-color: transparent;
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+.about2 {
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    width: 50%;
+}
+
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;   
+}
+.head2 {
+     color: black;
+     text-shadow: 2px 2px 5px white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 50px;
+     position: absolute;
+     right: 480px;
+     top: 550px;
+}
+p {
+    font-size: 20px;
+    font-family: arial;
+    
+}
+.logo {
+    position: absolute;
+    right: 30%;
+    top: 40%;
+}
+.kotakbox {
+    width: 500px;
+    height: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 360px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    top: 600px;
+    overflow: scroll;
+    display: block;
+    text-align: center;
+}
+.box {
+    background-color: salmon;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px;
+    display: block;
+    transition: 0.5s; 
+}
+.box:hover {
+    box-shadow: 2px 30px 7px -10px rgba(80, 90, 100, 10);
+    background-color: blue;
+    margin-top: 30px;
+    transform: scale(1.5, 2);
+    border-radius: 20px;
+}
+footer {
+    color: white;
+    position: absolute;
+    right: 600px;
+    bottom: -100%;
+}
+
+    
